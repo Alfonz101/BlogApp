@@ -1,0 +1,58 @@
+body {
+  background-color: #201a23;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+body > * {
+  font-family: "Host Grotesk";
+  /* border: 2px solid white; */
+}
+
+h1 a,
+h2 a {
+  color: #f64740;
+  text-decoration: none;
+}
+
+article,
+p {
+  color: #fbfbfb;
+}
+
+.time-published {
+  font-size: 0.8em;
+}
+
+.nav-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  background-color: #0b090c;
+}
+
+.nav-content {
+  display: flex;
+  align-items: center;
+  width: 90vw;
+  height: 9em;
+}
+
+/* #main-header {
+  margin: 0 1em;
+} */
+
+.main-content {
+  display: flex;
+  flex-direction: column;
+  width: 90vw;
+  height: 100vh;
+  margin-top: 2em;
+}
+
+.post {
+  margin: 2em 0;
+  width: 80%;
+}
